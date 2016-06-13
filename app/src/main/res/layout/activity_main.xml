@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="listview阻尼效果"
+        android:id="@+id/textview"
+        android:textSize="18sp"
+        tools:context=".MainActivity" />
+
+    <com.example.fermi.bouning.PullListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/textview"
+        android:layout_height="wrap_content"
+        android:transcriptMode="normal"
+        android:paddingBottom="50dp"
+        />
+
+    <EditText
+        android:hint="请输入聊天内容"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+       />
+
+
+</RelativeLayout>
