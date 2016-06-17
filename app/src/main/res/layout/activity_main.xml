@@ -24,6 +24,7 @@
 
     <EditText
         android:hint="请输入聊天内容"
+        android:id="@+id/et"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
